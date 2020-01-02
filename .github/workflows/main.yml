@@ -1,7 +1,7 @@
 name: A workflow to specify encoding in Python files
 on: push
 jobs:
-  autopep8:
+  add-encoding:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
