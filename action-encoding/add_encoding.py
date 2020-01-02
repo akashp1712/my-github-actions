@@ -9,11 +9,9 @@ files = [f for f in glob.glob("" + "**/*.py", recursive=True)]
 
 encoding_line = "# -*- coding: utf-8 -*-"
 for file in files:
-    print(file)
-    # do something with "txt_file"
+    # add encoding in the python files
     with open(file, 'r+') as f:
         first_line = f.readline().strip()
-        print("$" + first_line + "$")
 
         if first_line != encoding_line:
             content = f.read()
