@@ -10,4 +10,4 @@ LABEL "homepage"=""
 LABEL "maintainer"="Akash <akashp1712@gmail.com>"
 
 ADD add_encoding.py /add_encoding.py
-ENTRYPOINT ["python", "./add_encoding.py"]
+ENTRYPOINT ["python", "/add_encoding.py"]
