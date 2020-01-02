@@ -9,5 +9,5 @@ LABEL "repository"="https://github.com/akashp1712/my-github-actions"
 LABEL "homepage"=""
 LABEL "maintainer"="Akash <akashp1712@gmail.com>"
 
-ADD add_encoding.py /
+ADD add_encoding.py /add_encoding.py
 CMD [ "python", "./add_encoding.py" ]
